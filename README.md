@@ -4,14 +4,15 @@
 - 👯 I’m looking to collaborate on iPhone applications, Web dev projects (front or backend), Machine learning projects. 
 - 💬 Ask me about anything. 
 - 📫 How to reach me: K&Companydevelopment.com
-- Mobile: React Native
 
-Front-End: Next.js 
-Full-Stack: Flask (Python)
-Back-End: Node.js (JavaScript)
-Server: Ubuntu (AWS)
-DB: PostgreSQL
-Interview: Java
+- Preferences:
+- Mobile: React Native
+- Front-End: Next.js 
+- Full-Stack: Flask (Python)
+- Back-End: Node.js (JavaScript)
+- Server: Ubuntu (AWS)
+- DB: PostgreSQL
+- Interview: Java
 
 <!-- 
 **egrep6021ad/egrep6021ad** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
