@@ -1,7 +1,7 @@
 ### Hi there!
-- 🔭 I’m currently working on both a B.S. and an M.S. in Computer Science via Geogria States dual degree program.
-- 🌱 I’m currently learning React Native, Tensor Flow, Objective C 
-- 👯 I’m looking to collaborate on iPhone applications, Web "apps", Machine learning projects. 
+- 🔭 I’m currently working on a B.S. & M.S. in Computer Science, via Georgia State's dual degree program.
+- 🌱 I’m currently learning React Native, Tensor-Flow, Objective-C.
+- 👯 I’m looking to collaborate on iPhone applications, Web dev projects (front or backend), Machine learning projects. 
 - 💬 Ask me about anything. 
 - 📫 How to reach me: K&Companydevelopment.com
 
