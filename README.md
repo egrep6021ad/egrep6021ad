@@ -6,13 +6,13 @@
 - 📫 How to reach me: K&Companydevelopment.com
 
 - Preferences:
-- Mobile: React Native
-- Front-End: Next.js 
+- Mobile: React Native (iOS / Android)
+- Front-End: Next.js (React.js)
 - Full-Stack: Flask (Python)
 - Back-End: Node.js (JavaScript)
-- Server: Ubuntu (AWS)
+- Server: Ubuntu (AWS Cloud, raspberryPi)
 - DB: PostgreSQL
-- Interview: Java
+- Interviews: Java
 
 <!-- 
 **egrep6021ad/egrep6021ad** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
