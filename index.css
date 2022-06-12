@@ -1,0 +1,209 @@
+/* Add <span> tags and setup your style sheet so that every time the word �Georgia State, Computer Science and 2 more words of your choice� appears, it is in red and is in bold.*/
+.georgia {
+  color: red !important;
+  font-weight: bold;
+}
+body {
+  /* Image as a background; please ensure that the image is not overpowering but pleasant */
+  background: #444 url("background.webp") no-repeat center center / cover;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  /* Use CSS to change the font used throughout the page to sans-serif. */
+  font-family: sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.quote {
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.headshotStyle {
+  border-radius: 10px;
+  height: 2%;
+  width: 30%;
+  margin-top: 5%;
+  border-radius: 15px;
+}
+.myName {
+  color: black;
+  align-self: center;
+}
+.tableStyle {
+  border: none;
+  font-size: x-large;
+  width: 90%;
+  margin-top: 5%;
+  align-items: center;
+  table-layout: fixed;
+}
+th {
+  text-decoration: underline;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  color: #444;
+}
+tr:nth-child(odd) {
+  background-color: #d8d5d5;
+}
+td {
+  font-size: medium;
+  text-align: center;
+  width: 25%;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  transform: scale(1.2);
+}
+
+ul.a {
+  list-style-type: none;
+}
+ul.a li:before {
+  content: "\2014";
+  position: absolute;
+  margin-left: -20px;
+}
+ul.b {
+  list-style-type: square;
+}
+h3 {
+  margin-bottom: -1%;
+}
+.dates {
+  font-style: italic;
+}
+.education_bioStyle {
+  width: 100%;
+  height: 50%;
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10%;
+}
+.educationSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(248, 236, 236, 0.4);
+  width: 35%;
+  height: 190px;
+  border-radius: 10px;
+  box-shadow: 2px 3px #444;
+  z-index: 99;
+  font-weight: bold;
+}
+.educationTable {
+  width: 100%;
+  height: 100%;
+}
+.degree {
+  font-size: small;
+  margin-bottom: 2%;
+}
+.educationSection:hover {
+  background-color: white;
+  box-shadow: none;
+}
+.linksSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(251, 248, 248, 0.4);
+  width: 30%;
+  height: 190px;
+  border-radius: 10px;
+  box-shadow: 2px 3px #444;
+  z-index: 99;
+  font-weight: bold;
+}
+.linksSection:hover {
+  background-color: white;
+  box-shadow: none;
+}
+.educationText {
+  margin-top: -5rem;
+  font-size: small;
+  padding: 5%;
+  color: black;
+  z-index: 99;
+  font-weight: bold;
+}
+.experience_hobbyStyle {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5%;
+}
+.experienceSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(248, 236, 236, 0.4);
+  width: 35%;
+  height: 190px;
+  border-radius: 10px;
+  box-shadow: 2px 3px #444;
+  font-weight: bold;
+}
+.experienceSection:hover {
+  background-color: white;
+  box-shadow: none;
+}
+.hobbieSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(248, 236, 236, 0.4);
+  width: 30%;
+  height: 190px;
+  border-radius: 10px;
+  box-shadow: 2px 3px #444;
+  z-index: 99;
+  font-weight: bold;
+  text-align: right;
+}
+.hobbieSection:hover {
+  background-color: white;
+  box-shadow: none;
+}
+.experienceText {
+  font-size: small;
+  font-weight: bold;
+}
+footer {
+  position: sticky;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  width: 100%;
+  bottom: 0;
+  overflow-x: hidden;
+  z-index: 99;
+}
