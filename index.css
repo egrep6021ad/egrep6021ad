@@ -1,10 +1,10 @@
-/* Add <span> tags and setup your style sheet so that every time the word �Georgia State, Computer Science and 2 more words of your choice� appears, it is in red and is in bold.*/
+/* Add <span> tags and setup your style sheet so that every time the word �Georgia State, Computer Science and 2 more words ("Mad", "Dog") of your choice� appears, it is in red and is in bold.*/
 .georgia {
   color: red !important;
   font-weight: bold;
 }
 body {
-  /* Image as a background; please ensure that the image is not overpowering but pleasant */
+  /* "You an image as a background; please ensure that the image is not overpowering but pleasant to display the text and links etc" */
   background: #444 url("background.webp") no-repeat center center / cover;
   display: flex;
   height: 100%;
@@ -21,6 +21,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  height: 100%;
 }
 .quote {
   font-family: sans-serif;
@@ -38,6 +39,7 @@ body {
   color: black;
   align-self: center;
 }
+/* Table Styles */
 .tableStyle {
   border: none;
   font-size: x-large;
@@ -49,6 +51,7 @@ body {
 th {
   text-decoration: underline;
 }
+
 tr:nth-child(even) {
   background-color: #f2f2f2;
   color: #444;
@@ -61,7 +64,7 @@ td {
   text-align: center;
   width: 25%;
 }
-
+/* Link Styles */
 a:link {
   color: black;
   text-decoration: none;
@@ -70,9 +73,11 @@ a:visited {
   color: black;
 }
 a:hover {
-  transform: scale(1.2);
+  font-size: 120%;
+  color: #444;
+  font-style: italic;
 }
-
+/* List Styles */
 ul.a {
   list-style-type: none;
 }
@@ -84,13 +89,31 @@ ul.a li:before {
 ul.b {
   list-style-type: square;
 }
-h3 {
+h3#education {
+  margin-bottom: -5%;
+  text-decoration: underline;
+  font-style: italic;
+}
+h3#hobbies {
+  margin-bottom: -2%;
+  text-decoration: underline;
+  font-style: italic;
+}
+h3#experience {
   margin-bottom: -1%;
+  text-decoration: underline;
+  font-style: italic;
+}
+h3#links {
+  margin-bottom: -2%;
+  text-decoration: underline;
+  font-style: italic;
 }
 .dates {
   font-style: italic;
 }
-.education_bioStyle {
+
+.education_linkStyle {
   width: 100%;
   height: 50%;
   padding: 5%;
@@ -111,6 +134,16 @@ h3 {
   box-shadow: 2px 3px #444;
   z-index: 99;
   font-weight: bold;
+  font-size: 90%;
+  line-height: 130%;
+}
+.educationText {
+  margin-top: -5rem;
+  font-size: small;
+  padding: 5%;
+  color: black;
+  z-index: 99;
+  font-weight: bold;
 }
 .educationTable {
   width: 100%;
@@ -119,6 +152,7 @@ h3 {
 .degree {
   font-size: small;
   margin-bottom: 2%;
+  margin-left: 5%;
 }
 .educationSection:hover {
   background-color: white;
@@ -135,23 +169,17 @@ h3 {
   box-shadow: 2px 3px #444;
   z-index: 99;
   font-weight: bold;
+  font-size: 100%;
+  line-height: 140%;
 }
 .linksSection:hover {
   background-color: white;
   box-shadow: none;
 }
-.educationText {
-  margin-top: -5rem;
-  font-size: small;
-  padding: 5%;
-  color: black;
-  z-index: 99;
-  font-weight: bold;
-}
+
 .experience_hobbyStyle {
   width: 100%;
   height: 50%;
-
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -168,6 +196,9 @@ h3 {
   border-radius: 10px;
   box-shadow: 2px 3px #444;
   font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 100%;
+  line-height: 135%;
 }
 .experienceSection:hover {
   background-color: white;
@@ -185,6 +216,8 @@ h3 {
   z-index: 99;
   font-weight: bold;
   text-align: right;
+  font-size: 90%;
+  line-height: 125%;
 }
 .hobbieSection:hover {
   background-color: white;
@@ -194,16 +227,13 @@ h3 {
   font-size: small;
   font-weight: bold;
 }
+
 footer {
-  position: sticky;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: sans-serif;
-  letter-spacing: 3px;
-  width: 100%;
+  position: fixed;
+  left: 0;
   bottom: 0;
-  overflow-x: hidden;
+  width: 100%;
+  background-color: white;
+  text-align: center;
   z-index: 99;
 }

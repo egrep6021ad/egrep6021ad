@@ -1,15 +1,12 @@
-<!--Comments are taking directly from the assignment instructions-->
-
-<!-- The default file for your website must be named index.html.-->
+<!-- "The default file for your website must be named index.html"-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!--Add a title -->
+    <!-- "Make up a clever title for your web page, and put it in the title element" -->
     <title>K & Company Development</title>
-
-    <!-- Use External Stylesheet: Your page must be controlled by an external stylesheet! Note: You must add a link to your external stylesheet from your page so it can be downloaded.-->
-    <link rel="stylesheet" href="index.css" />
+    <!-- "Your page must be controlled by an external stylesheet! Note: You must add a link to your external stylesheet from your page so it can be downloaded."  -->
+    <link rel="stylesheet" href="index.css" type="text/css" />
   </head>
 
   <body>
@@ -21,20 +18,19 @@
         <p>
           "The most important six inches on the battlefield is between your
           ears."
-          <br />
         </p>
-
+        <br />
         <p>
           -Gen. <span class="georgia">"Mad</span
           ><span class="georgia"> Dog" </span>Mattis
         </p>
       </div>
 
-      <!--A head shot (Photo of you). Followed by your name center the heading with your name and image if appropriate to make it look clean.-->
+      <!--"A head shot (Photo of you). Followed by your name center the heading with your name and image if appropriate to make it look clean." -->
       <img class="headshotStyle" src="headshot.webp" alt="image" />
       <h4 class="myName">Khalfani Bozeman</h4>
 
-      <!--Take to Assignments and Projects using a zebra-striped table no borders, every other row is a different color.-->
+      <!-- "Create a section that will have all links that will take me to Assignments and Projects using a zebra-striped table no borders, every other row is a different color. Have assignment 01 link point to itself and the other links are set to dummy links." -->
       <table class="tableStyle">
         <tr>
           <th>Home Work</th>
@@ -132,47 +128,73 @@
           <td></td>
         </tr>
       </table>
-      <!--Create a nested list that must include the following-->
-      <div class="education_bioStyle">
+
+      <div class="education_linkStyle">
         <section class="educationSection">
-          <h3>Education</h3>
+          <h3 id="education">Education</h3>
           <br />
+          <!--Create a nested list that must include the following-->
           <!--Education (heading required): bulleted list of schools.-->
-
-          <span
-            ><span class="georgia"> Georgia</span> State University
-            <span class="dates">(2020 - 2024)</span></span
-          >
-          <span class="degree"
-            >B.S. / M.S.<span class="georgia">Computer Science</span></span
-          >
-
-          <span>
-            North
-            <span class="georgia"> Georgia</span>
-            University
-            <span class="dates">(2020 - 2024)</span>
-          </span>
-
-          <span class="degree">
-            B.S. <span class="georgia">Computer Science</span>
-          </span>
-
-          <span>
-            Lanier Technical Community College
-            <span class="dates">(2020 - 2024)</span>
-          </span>
-
-          <span class="degree"> A.S. General Studies </span>
+          <ul>
+            <li>
+              <span
+                ><span class="georgia"> Georgia State </span> University
+                <span class="dates">(2020 - 2024)</span></span
+              >
+              <br />
+              <ul>
+                <li>
+                  <span class="degree"
+                    >B.S. / M.S.
+                    <span class="georgia">Computer Science</span></span
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span>
+                North Georgia University
+                <span class="dates">(2019 - 2020)</span>
+              </span>
+              <br />
+              <ul>
+                <li>
+                  <span class="degree">
+                    B.S. <span class="georgia">Computer Science</span>
+                  </span>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span>
+                Lanier Technical Community College
+                <span class="dates">(2018 - 2019)</span>
+              </span>
+              <br />
+              <ul>
+                <li>
+                  <span class="degree"> A.S. General Studies </span>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </section>
         <!--A list of hobbies or interest displayed as an HTML unordered list and second list (e.g., your top-ten favorite Albums).-->
         <section class="hobbieSection">
-          <h3>Hobbies</h3>
-          <ul class="a">
-            <li class="hobbieText">Watching baseball with my son</li>
-            <li>Coding</li>
-            <li>Tennis</li>
+          <h3 id="hobbies">Hobbies</h3>
+          <ul>
+            <li>Watching baseball with my son</li>
+            <li>
+              Podcasts / Youtube Channels
+              <ul class="a">
+                <li>Lex Friedman</li>
+                <li>Joe Rogan</li>
+                <li>Simulation Theory</li>
+                <li>Quantum Information Theory</li>
+              </ul>
+            </li>
             <li>Working out</li>
+            <li>Coding</li>
           </ul>
         </section>
       </div>
@@ -180,30 +202,57 @@
       <br />
 
       <div class="experience_hobbyStyle">
+        <!--Create a nested list that must include the following-->
         <!--Job history (heading required): numbered list of jobs.-->
         <section class="experienceSection">
-          <h3>Experience</h3>
+          <h3 id="experience">Experience</h3>
+          <ol>
+            <li>
+              U.S. Army <span class="dates">(2013 - 2018)</span>
+              <br />
+              <ul>
+                <li>
+                  <span class="experienceText">68W-W1 Medic</span>
+                </li>
+              </ul>
+            </li>
 
-          <p>U.S. Army <span class="dates">(2020 - 2024)</span></p>
-          <span class="experienceText">68W-W1 Medic</span>
-          <p>Tacos & Tequila <span class="dates">(2020 - 2024)</span></p>
-          <span class="experienceText">Waiter / Bartender</span>
+            <li>
+              Tacos & Tequila <span class="dates">(2011 - 2013)</span>
+              <br />
+              <ul>
+                <li>
+                  <span class="experienceText">Waiter / Bartender</span>
+                </li>
+              </ul>
+            </li>
+          </ol>
         </section>
         <!--Link at least two of your hobbies or interests to websites related to those interests (biography).-->
         <!--There should be at least 3 external links to other websites of interest.-->
         <section class="linksSection">
-          <h3>Links</h3>
+          <h3 id="links">Links</h3>
           <ul class="b">
-            <li>
-              <a href="./index.css" download> Download CSS </a>
+            <li id="linksSection">
+              <a href="./index.css" download> My personal CSS stylesheet </a>
             </li>
-            <li>
+            <li id="linksSection">
               <a href="https://youtu.be/KBZP4rLk6bk">Lex Friedman Podcast</a>
             </li>
-            <li>
+            <li id="linksSection">
               <a href="https://nickbostrom.com/papers/vulnerable.pdf"
-                >Simulation Theory</a
+                >Simulation Theory (Nick Bostrom)</a
               >
+            </li>
+            <li id="linksSection">
+              <a href="https://youtu.be/UHlfe2HE_gQ?t=513"
+                >Simulation Theory (Rizwan Virk)</a
+              >
+            </li>
+            <li id="linksSection">
+              <a href="https://en.wikipedia.org/wiki/Quantum_teleportation"
+                >Quantum Information Theory (Teleportation)
+              </a>
             </li>
           </ul>
         </section>
@@ -211,7 +260,7 @@
     </div>
     <br />
     <br />
-    <!--A link to the Computer Science Department's main home page, which is http://www.cs.gsu.edu/-->
+    <!--"A link to the Computer Science Department's main home page, which is http://www.cs.gsu.edu/" -->
     <footer>
       <a href="http://www.cs.gsu.edu/" class="footerText"
         ><span class="georgia">Georgia State</span
