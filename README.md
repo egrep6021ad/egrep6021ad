@@ -2,7 +2,6 @@
 - 🔭 I’m currently working on a B.S. (2023) & M.S. (2024) in Computer Science, via Georgia State's dual degree program.
 - 🌱 I’m currently learning iosWatchKit, Tensor-Flow, Objective-C.
 - 👯 I’m looking to collaborate on iPhone applications, Web dev projects (front or backend), Machine learning projects. 
-- 💬 Ask me about anything. 
 - 📫 How to reach me: K&Companydevelopment.com
 
 - Preferences:
