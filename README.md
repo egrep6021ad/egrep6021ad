@@ -19,10 +19,7 @@
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on both a B.S. (2023) and an M.S. (2024) in Computer Science via Geogria States dual degree program.
-- 🌱 I’m currently learning React Native, Tensor Flow, Objective C 
 - 👯 I’m looking to collaborate on iPhone applications, Web "apps", Machine learning projects. 
 - 💬 Ask me about anything. 
-- 📫 How to reach me: K&Companydevelopment.com
 - 😄 Pronouns: He / Him 
-
 -->
