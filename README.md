@@ -5,12 +5,12 @@
 
 - Preferences:
    - Mobile: React Native (iOS / Android)
-- - Front-End: Next.js (React.js)
-- - Full-Stack: Flask (Python)
-- - Back-End: Node.js (JavaScript)
-- - Server: Ubuntu (AWS Cloud, raspberryPi)
-- - DB: PostgreSQL
-- - Interviews: Java
+   - Front-End: Next.js (React.js)
+   - Full-Stack: Flask (Python)
+   - Back-End: Node.js (JavaScript)
+   - Server: Ubuntu (AWS Cloud, raspberryPi)
+   - DB: PostgreSQL
+   - Interviews: Java
 
 <!-- 
 **egrep6021ad/egrep6021ad** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
