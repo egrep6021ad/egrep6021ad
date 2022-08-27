@@ -4,7 +4,7 @@
 - 📫 How to reach me: kbozeman3@student.gsu.edu
 
 - Preferences:
-- - Mobile: React Native (iOS / Android)
+   - Mobile: React Native (iOS / Android)
 - - Front-End: Next.js (React.js)
 - - Full-Stack: Flask (Python)
 - - Back-End: Node.js (JavaScript)
