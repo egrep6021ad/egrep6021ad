@@ -1,5 +1,5 @@
 ### Hi there!
-- 🔭 I’m currently working on a B.S. (Spring 2023) & M.S. (Fall 2023) in Computer Science, via Georgia State's dual degree program.
+- 🔭 I’m currently working on a B.S. (Spring 2023) & M.S. (Spring 2024) in Computer Science, via Georgia State's dual degree program.
 - 👯 I’m looking to collaborate on iPhone applications, Web dev projects (front or backend), Machine learning projects. 
 - 📫 How to reach me: kbozeman3@student.gsu.edu
 
