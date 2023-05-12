@@ -1,5 +1,5 @@
 ### Hi there!
-- 🔭 I’m currently working on a M.S. (Spring 2024) in Computer Science at Georgia State University
+- 🔭 I’m currently working on a M.S. in Computer Science (Spring 2024) at Georgia State University.
 - 👯 I’m looking to collaborate on iPhone applications, Web dev projects (front or backend) preferably backend, Deep learning projects.
 - 📫 How to reach me: kbozeman3@student.gsu.edu
 
