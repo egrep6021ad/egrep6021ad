@@ -4,13 +4,16 @@
 - 📫 How to reach me: kbozeman3@student.gsu.edu
 
 - Preferences:
-   - Mobile: React Native (iOS / Android)
-   - Front-End: Next.js (React.js)
-   - Full-Stack: Flask (Python)
-   - Back-End: Node.js (JavaScript)
-   - Server: Ubuntu (AWS Cloud, raspberryPi)
+   - Interviews: Python / Java (Problem dependent)
+   - Deep Learning Framework: TensorFlow (I don't really like PyTorch at all)
+   - Mobile: React Native
+   - Front-End: Next.js 
+   - Full-Stack: Flask 
+   - Back-End: Node.js 
+   - Server: Ubuntu
+   - Cloud Provider: AWS
    - DB: PostgreSQL
-   - Interviews: Java
+
 
 <!-- 
 **egrep6021ad/egrep6021ad** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
