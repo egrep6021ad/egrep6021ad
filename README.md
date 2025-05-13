@@ -1,4 +1,4 @@
-B.S. Computer Science (2023)
+B.S. Computer Science (2023) <br/>
 SRE @ Consumer Data & Analytics Company (Current)
 
 
