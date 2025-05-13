@@ -1,18 +1,4 @@
-### Hi there!
-- 🔭 I’m currently working on a M.S. in Computer Science (Spring 2024) at Georgia State University.
-- 👯 I’m looking to collaborate on iPhone applications, Web dev projects (preferably backend), Deep learning projects.
-- 📫 How to reach me: kbozeman3@student.gsu.edu
 
-- Preferences:
-   - Interviews: Python / Java (Problem dependent)
-   - Deep Learning Framework: TensorFlow (I don't really like PyTorch at all)
-   - Mobile: React Native
-   - Front-End: Next.js 
-   - Full-Stack: Flask 
-   - Back-End: Node.js 
-   - Server: Ubuntu
-   - Cloud Provider: AWS
-   - DB: PostgreSQL
 
 
 <!-- 
