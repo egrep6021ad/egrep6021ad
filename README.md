@@ -1,3 +1,4 @@
+Army (2018)
 B.S. Computer Science (2023) <br/>
 SRE @ Consumer Data & Analytics Company (Current)
 
